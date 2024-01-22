@@ -29,103 +29,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-  .top {
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 1200px;
 
-    @media (max-width: 768px){
-      flex-direction: column;
-    }
-  }
-
-  .top h1,
-  .top p {
-    width: 100%;
-    display: inline-flex;
-    max-width: 88%;
-    font-size: 36px;
-    color: rgb(41, 44, 47);
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-
-    
-  }
-
-  .top p {
-    font-size: 18px;
-  }
-
-  .col1 {
-    display: flex;
-    box-sizing: border-box;
-    flex: 12;
-    padding: 32px 0px 0px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .col2 img {
-    border: none;
-    padding: 0;
-    width: 100%;
-    height: 480px;
-    margin: 0px 0px 0px 0px;
-    overflow: hidden;
-    border-style: none;
-    border-color: #5981e3;
-    border-radius: 0px 0px 0px 0px;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    object-fit: contain;
-  }
-
-  .bloco-top {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    padding: 32px 5%;
-  }
-  .btn-comprar{
-    width: 100%;
-    flex-direction: row-reverse;
-    background: #DE5A07;
-    color: #FFFFFF !important;
-    font-size: 18px;
-    margin: 16px 0px 50px 10px;
-    padding: 16px 32px 16px 32px;
-    border-style: none;
-    border-color: #EF4E23;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    border-radius: 32px 32px 32px 32px;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    margin: 0;
-    max-width: 310px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 18px;
-  }
-</style>
 
 <body>
-  <div class="bloco-top">
-
-    <div class="top">
+  <div class="bloco">
+    <section class="top">
       <div class="col1">
         <h1>Descubra o prazer de criar e saborear tortas incríveis com o nosso e-book "50 melhores receitas de tortas".
           Este guia culinário reúne uma coleção exclusiva de receitas de tortas salgadas que transformarão suas
@@ -134,7 +44,10 @@
         <p>Surpreenda e mime seus entes queridos com tortas irresistíveis. Explore uma variedade de sabores, desde os
           clássicos até opções mais inovadoras, garantindo que haja algo para todos os gostos e ocasiões.</p>
 
-        <a href="" class="btn-comprar">Comprar agora</a>
+        <div class="cta-top">
+          <a href="https://pay.hotmart.com/E90171810P" class="btn-comprar">Comprar agora</a>
+          <img src="images/seta-continua.jpg" alt="Ler mais">
+        </div>
       </div>
       <div class="col2">
         <img
@@ -142,8 +55,100 @@
           alt="50 melhores receitas de tortas">
       </div>
 
-    </div>
+    </section>
   </div>
+
+  <div class="bloco conteudo">
+    <section class="top conteudo">
+      <div class="col1">
+        <ul>
+          <li>
+            <img src="images/torta-frango.jpg" alt="Página e-book Torta de Frango">
+          </li>
+          <li>
+            <img src="images/torta-maca.jpg" alt="Página e-book Torta de Maça">
+          </li>
+          <li>
+            <img src="images/torta-sacher.jpg" alt="Página e-book Torta Sacher">
+          </li>
+        </ul>
+      </div>
+
+      <div class="col2">
+        <h2>SOBRE O CONTEÚDO</h2>
+
+        <p>O que você encontrará no e-book:</p>
+
+        <ul>
+          <li>
+            🥧 Variedade de Sabores: Explore uma ampla gama de receitas que abrangem desde clássicos reconfortantes até
+            combinações inovadoras de ingredientes frescos e sazonais.
+          </li>
+          <li>
+            🌿 Opções Saudáveis e Saborosas: Descubra tortas nutritivas repletas de vegetais frescos, proteínas magras e
+            ingredientes saudáveis, mantendo o equilíbrio perfeito entre sabor e bem-estar.
+          </li>
+          <li>
+            🌎 Inspirado em Diferentes Culinárias: Viaje ao redor do mundo através das nossas receitas inspiradas em
+            diversas culturas, proporcionando uma explosão de sabores na sua cozinha.
+          </li>
+          <li>
+            🍴 Para Todos os Níveis de Habilidade: Seja você um chef experiente ou um iniciante na cozinha, as nossas
+            receitas são adaptáveis, oferecendo orientações claras e dicas úteis.
+          </li>
+          <li>
+            📷 Ilustrado e Visualmente Atraente: Cada receita é acompanhada de belas imagens que despertarão sua inspiração
+            culinária e farão você salivar antes mesmo de começar a cozinhar.
+          </li>
+        </ul>
+
+        <h2>Por que escolher "50 melhores receitas de tortas"?</h2>
+
+        <ul>
+          <li>
+            🎉 Surpreenda seus Convidados: Torne-se o anfitrião perfeito com tortas que impressionarão seus amigos e familiares em ocasiões especiais.
+          </li>
+          <li>
+            🕑 Praticidade no Dia a Dia: Receitas simples e práticas para refeições cotidianas sem sacrificar o sabor.
+          </li>
+          <li>
+            📚 Um Guia Completo: Além das receitas, fornecemos dicas de preparo, sugestões de acompanhamentos e truques para garantir resultados perfeitos.
+          </li>
+        </ul>
+
+        <p>
+          Prepare-se para se aventurar na arte de fazer tortas salgadas que não apenas alimentam o corpo, mas também alimentam a alma. Adquira agora "50 melhores receitas de tortas" e comece a criar memórias inesquecíveis na sua cozinha. Transforme cada fatia em uma experiência gastronômica única! 🍽️✨
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <div class="bloco">
+    <section class="top">
+      <div class="col1">
+        <h2>Aproveite o conteúdo em qualquer dispositivo.</h2>
+        <p class="price-bottom">Por apenas <span class="destaque-price">R$ 20,00</span></p>
+
+        <div class="cta-top">
+          <a href="https://pay.hotmart.com/E90171810P" class="btn-comprar">Comprar agora</a>
+        </div>
+
+        <p class="pagamento-seguro">PAGAMENTO 100% SEGURO COM ACESSO IMEDIATO</p>
+      </div>
+      <div class="col2">
+        <img
+          src="https://static-media.hotmart.com/LHEwua2S7IfumXwR26lIIcxQ_QE=/filters:background_color(white)/hotmart/product_pictures/7293581c-8ad8-434d-bc59-11d5386380b2/50melhoresreceitasdetortas.jpg"
+          alt="50 melhores receitas de tortas">
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-bottom">
+      <p>© LKS INFOTEC - CNPJ: 37.810.374/0001-82 - Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
